@@ -1,13 +1,47 @@
-# React + Vite
+# Film Finder (React Movie Search)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React app to search movies using The Movie Database (TMDB) API. This project is a lightweight starter that demonstrates fetching data from an external API, showing results as cards, and using environment variables with Vite.
 
-Currently, two official plugins are available:
+## Quick summary
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Framework: React 19 + Vite
+- API: The Movie Database (TMDB) search endpoint
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# film-finder
+- Node.js (v16 or newer recommended)
+- A TMDB API key: register at https://www.themoviedb.org/ to get an API key
+
+## Environment
+
+This project expects the TMDB API key to be available via Vite environment variables. Create a file named `.env` in the project root with the following content:
+
+```env
+# .env (in project root)
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+```
+
+## Install and run
+
+Install dependencies, run the dev server, or build for production:
+
+```bash
+# install
+npm install
+
+# start development server (Vite)
+npm run dev
+```
+
+## Local development (view the app)
+
+By default Vite serves the app at:
+
+http://localhost:5173
+
+After running `npm run dev` open that URL in your browser. If the port is taken or Vite picks another port, check the terminal output — Vite prints the exact local URL it serves.
+
+## Live demo
+
+LIVE DEMO: https://your-live-demo.example.com
+
