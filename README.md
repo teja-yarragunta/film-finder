@@ -4,7 +4,7 @@ A small React app to search movies using The Movie Database (TMDB) API. This pro
 
 ## Live demo
 
-LIVE DEMO: https://your-live-demo.example.com
+LIVE DEMO: https://film-finder-tmdb.netlify.app/
 
 ## Quick summary
 
