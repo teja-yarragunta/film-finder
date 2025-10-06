@@ -2,6 +2,10 @@
 
 A small React app to search movies using The Movie Database (TMDB) API. This project is a lightweight starter that demonstrates fetching data from an external API, showing results as cards, and using environment variables with Vite.
 
+## Live demo
+
+LIVE DEMO: https://your-live-demo.example.com
+
 ## Quick summary
 
 - Framework: React 19 + Vite
@@ -40,8 +44,3 @@ By default Vite serves the app at:
 http://localhost:5173
 
 After running `npm run dev` open that URL in your browser. If the port is taken or Vite picks another port, check the terminal output — Vite prints the exact local URL it serves.
-
-## Live demo
-
-LIVE DEMO: https://your-live-demo.example.com
-
